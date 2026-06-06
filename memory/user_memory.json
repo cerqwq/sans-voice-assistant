@@ -1,0 +1,23 @@
+{
+  "user_name": "李宿",
+  "preferences": {
+    "language": "zh",
+    "reply_style": "简洁直接，1-2句话",
+    "likes": [
+      "听音乐"
+    ],
+    "dislikes": []
+  },
+  "habits": {
+    "common_commands": [],
+    "wake_word_variants": [],
+    "active_hours": "",
+    "location": "西安市灞桥区"
+  },
+  "conversation_history": {
+    "topics_discussed": [],
+    "tools_used": {},
+    "last_interaction": "2026-05-31T22:35:00"
+  },
+  "personal_notes": []
+}
