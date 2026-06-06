@@ -1,0 +1,49 @@
+# Voice Assistant Dependencies
+# Install: pip install -r requirements.txt
+
+# ===== Core =====
+openai                       # Ollama OpenAI-compatible API
+python-dotenv                # Load .env file
+
+# ===== STT (Speech-to-Text) =====
+RealtimeSTT[faster-whisper]  # Speech-to-text with VAD, wake word
+silero-vad                   # Voice activity detection
+
+# ===== TTS (Text-to-Speech) =====
+edge-tts                     # Free Microsoft Edge TTS (no API key)
+pygame                       # Audio playback
+
+# ===== Wake Word =====
+openwakeword                 # Free wake word detection
+onnxruntime                  # ONNX model inference (for custom wake word)
+scipy                        # Signal processing (for wake word features)
+scikit-learn                 # ML utilities (for wake word training)
+
+# ===== Windows =====
+winsdk                       # Windows SDK (for media controls)
+
+# ===== Web Server =====
+flask                        # Web server for API endpoints
+
+# ===== System Monitoring =====
+psutil                       # CPU, memory, disk monitoring
+
+# ===== Tools =====
+pyperclip                    # Clipboard read/write
+mss                          # Fast screenshots
+Pillow                       # Image processing
+pycaw                        # Windows volume control
+comtypes                     # Required by pycaw
+pywin32                      # Windows API
+screen-brightness-control    # Screen brightness
+pynput                       # Media key simulation
+keyboard                     # Global hotkeys
+duckduckgo-search            # Web search (no API key)
+
+# ===== UI =====
+rich                         # Terminal UI
+pystray                      # System tray icon
+winotify                     # Windows toast notifications
+
+# ===== Memory =====
+chromadb                     # Vector database for semantic memory
